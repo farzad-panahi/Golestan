@@ -575,6 +575,10 @@ video {
   margin-right: auto;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-\[100px\] {
   margin-bottom: 100px;
 }
@@ -583,8 +587,12 @@ video {
   margin-bottom: 15px;
 }
 
-.mr-1 {
-  margin-right: 0.25rem;
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
 }
 
 .mr-20 {
@@ -597,10 +605,6 @@ video {
 
 .mr-\[25px\] {
   margin-right: 25px;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .mt-\[15px\] {
@@ -644,10 +648,6 @@ video {
 
 .hidden {
   display: none;
-}
-
-.h-\[120px\] {
-  height: 120px;
 }
 
 .h-\[125px\] {
@@ -762,10 +762,6 @@ video {
   height: 604px;
 }
 
-.h-\[60px\] {
-  height: 60px;
-}
-
 .h-\[618px\] {
   height: 618px;
 }
@@ -850,6 +846,10 @@ video {
   width: 97%;
 }
 
+.w-\[99\%\] {
+  width: 99%;
+}
+
 .w-\[full\] {
   width: full;
 }
@@ -892,10 +892,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .gap-1 {
@@ -1007,6 +1003,11 @@ video {
   background-color: rgb(247 249 251 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#FF0000\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#FFFFFF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1062,9 +1063,8 @@ video {
      object-fit: cover;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+.p-\[20px\] {
+  padding: 20px;
 }
 
 .px-\[10px\] {
@@ -1095,20 +1095,16 @@ video {
   padding-bottom: 45px;
 }
 
-.pr-6 {
-  padding-right: 1.5rem;
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .pr-\[20px\] {
   padding-right: 20px;
-}
-
-.pt-16 {
-  padding-top: 4rem;
-}
-
-.pt-\[16px\] {
-  padding-top: 16px;
 }
 
 .pt-\[30px\] {
@@ -1155,10 +1151,6 @@ video {
   font-size: 16px;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
-}
-
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -1167,8 +1159,12 @@ video {
   font-size: 22px;
 }
 
-.text-\[25px\] {
-  font-size: 25px;
+.text-\[23px\] {
+  font-size: 23px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
 }
 
 .text-\[30px\] {
@@ -1205,10 +1201,6 @@ video {
 
 .leading-\[45px\] {
   line-height: 45px;
-}
-
-.leading-\[60px\] {
-  line-height: 60px;
 }
 
 .text-\[\#002021\] {
@@ -1445,10 +1437,6 @@ video {
 
   .mobile\:w-\[500px\] {
     width: 500px;
-  }
-
-  .mobile\:w-\[99\%\] {
-    width: 99%;
   }
 
   .mobile\:w-full {
