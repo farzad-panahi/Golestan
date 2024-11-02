@@ -595,6 +595,10 @@ video {
   margin-bottom: 40px;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
 .mr-20 {
   margin-right: 5rem;
 }
@@ -605,6 +609,10 @@ video {
 
 .mr-\[25px\] {
   margin-right: 25px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-\[15px\] {
@@ -623,12 +631,12 @@ video {
   margin-top: 50px;
 }
 
-.mr-1 {
-  margin-right: 0.25rem;
+.mt-\[30px\] {
+  margin-top: 30px;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-\[130px\] {
+  margin-top: 130px;
 }
 
 .box-border {
@@ -656,6 +664,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.h-\[120px\] {
+  height: 120px;
 }
 
 .h-\[125px\] {
@@ -770,6 +782,10 @@ video {
   height: 604px;
 }
 
+.h-\[60px\] {
+  height: 60px;
+}
+
 .h-\[618px\] {
   height: 618px;
 }
@@ -788,14 +804,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[120px\] {
-  height: 120px;
-}
-
-.h-\[60px\] {
-  height: 60px;
 }
 
 .w-\[100px\] {
@@ -1087,6 +1095,11 @@ video {
   padding: 20px;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
@@ -1107,11 +1120,6 @@ video {
   padding-bottom: 15px;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1128,8 +1136,20 @@ video {
   padding-right: 1rem;
 }
 
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
 .pr-\[20px\] {
   padding-right: 20px;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-\[16px\] {
+  padding-top: 16px;
 }
 
 .pt-\[30px\] {
@@ -1148,16 +1168,8 @@ video {
   padding-top: 75px;
 }
 
-.pr-6 {
-  padding-right: 1.5rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
-}
-
-.pt-\[16px\] {
-  padding-top: 16px;
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -1188,6 +1200,10 @@ video {
   font-size: 16px;
 }
 
+.text-\[18px\] {
+  font-size: 18px;
+}
+
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -1200,20 +1216,16 @@ video {
   font-size: 23px;
 }
 
+.text-\[25px\] {
+  font-size: 25px;
+}
+
 .text-\[28px\] {
   font-size: 28px;
 }
 
 .text-\[30px\] {
   font-size: 30px;
-}
-
-.text-\[18px\] {
-  font-size: 18px;
-}
-
-.text-\[25px\] {
-  font-size: 25px;
 }
 
 .font-bold {
@@ -1488,12 +1500,12 @@ video {
     width: 500px;
   }
 
-  .mobile\:w-full {
-    width: 100%;
-  }
-
   .mobile\:w-\[99\%\] {
     width: 99%;
+  }
+
+  .mobile\:w-full {
+    width: 100%;
   }
 
   .mobile\:flex-row {
