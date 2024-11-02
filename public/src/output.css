@@ -803,6 +803,10 @@ video {
   height: 100vh;
 }
 
+.h-\[290px\] {
+  height: 290px;
+}
+
 .w-\[100px\] {
   width: 100px;
 }
@@ -895,6 +899,18 @@ video {
   width: ful;
 }
 
+.w-\[155px\] {
+  width: 155px;
+}
+
+.w-\[15px\] {
+  width: 15px;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -953,6 +969,10 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .gap-x-4 {
@@ -1073,6 +1093,10 @@ video {
 .bg-gray-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#\] {
+  background-color: #;
 }
 
 .bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/icon1-1-1\.png\'\)\] {
@@ -1700,6 +1724,10 @@ video {
 
   .desktop\:h-\[inherit\] {
     height: inherit;
+  }
+
+  .desktop\:h-\[40px\] {
+    height: 40px;
   }
 
   .desktop\:w-5\/6 {
