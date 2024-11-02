@@ -616,10 +616,6 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mt-\[15px\] {
   margin-top: 15px;
 }
@@ -807,14 +803,6 @@ video {
   height: 100vh;
 }
 
-.h-\[300px\] {
-  height: 300px;
-}
-
-.h-\[30px\] {
-  height: 30px;
-}
-
 .w-\[100px\] {
   width: 100px;
 }
@@ -863,8 +851,8 @@ video {
   width: 350px;
 }
 
-.w-\[400px\] {
-  width: 400px;
+.w-\[390px\] {
+  width: 390px;
 }
 
 .w-\[40px\] {
@@ -905,10 +893,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[450px\] {
-  width: 450px;
 }
 
 .max-w-full {
@@ -978,18 +962,6 @@ video {
 
 .gap-y-20 {
   row-gap: 5rem;
-}
-
-.gap-y-5 {
-  row-gap: 1.25rem;
-}
-
-.gap-y-3 {
-  row-gap: 0.75rem;
-}
-
-.gap-y-2 {
-  row-gap: 0.5rem;
 }
 
 .rounded-2xl {
@@ -1103,16 +1075,6 @@ video {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
-}
-
 .bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/icon1-1-1\.png\'\)\] {
   background-image: url('https://www.golestan.com/wp-content/uploads/2023/01/icon1-1-1.png');
 }
@@ -1146,14 +1108,14 @@ video {
   padding: 20px;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .px-\[10px\] {
@@ -1179,16 +1141,6 @@ video {
 .py-\[15px\] {
   padding-top: 15px;
   padding-bottom: 15px;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .pb-1 {
@@ -1319,6 +1271,10 @@ video {
   line-height: 2rem;
 }
 
+.leading-\[33px\] {
+  line-height: 33px;
+}
+
 .leading-\[40px\] {
   line-height: 40px;
 }
@@ -1333,18 +1289,6 @@ video {
 
 .leading-\[60px\] {
   line-height: 60px;
-}
-
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-\[\] {
-  line-height: ;
-}
-
-.leading-\[33px\] {
-  line-height: 33px;
 }
 
 .text-\[\#002021\] {
@@ -1531,10 +1475,6 @@ video {
     margin-right: auto;
   }
 
-  .mobile\:mt-\[\] {
-    margin-top: ;
-  }
-
   .mobile\:mt-\[10px\] {
     margin-top: 10px;
   }
@@ -1563,16 +1503,16 @@ video {
     width: 154px;
   }
 
-  .mobile\:w-\[200px\] {
-    width: 200px;
-  }
-
   .mobile\:w-\[214px\] {
     width: 214px;
   }
 
   .mobile\:w-\[250px\] {
     width: 250px;
+  }
+
+  .mobile\:w-\[390px\] {
+    width: 390px;
   }
 
   .mobile\:w-\[40\%\] {
@@ -1591,10 +1531,6 @@ video {
     width: 500px;
   }
 
-  .mobile\:w-\[75\%\] {
-    width: 75%;
-  }
-
   .mobile\:w-\[99\%\] {
     width: 99%;
   }
@@ -1603,16 +1539,8 @@ video {
     width: 100%;
   }
 
-  .mobile\:flex-row {
-    flex-direction: row;
-  }
-
   .mobile\:flex-col {
     flex-direction: column;
-  }
-
-  .mobile\:flex-col-reverse {
-    flex-direction: column-reverse;
   }
 
   .mobile\:items-center {
@@ -1639,10 +1567,6 @@ video {
     gap: 0.75rem;
   }
 
-  .mobile\:gap-y-14 {
-    row-gap: 3.5rem;
-  }
-
   .mobile\:p-\[20px\] {
     padding: 20px;
   }
@@ -1667,10 +1591,6 @@ video {
     text-align: center;
   }
 
-  .mobile\:text-\[10px\] {
-    font-size: 10px;
-  }
-
   .mobile\:text-\[12px\] {
     font-size: 12px;
   }
@@ -1681,10 +1601,6 @@ video {
 
   .mobile\:text-\[14px\] {
     font-size: 14px;
-  }
-
-  .mobile\:text-\[20px\] {
-    font-size: 20px;
   }
 
   .mobile\:leading-5 {
@@ -1766,10 +1682,6 @@ video {
     height: 376px;
   }
 
-  .desktop\:h-\[395px\] {
-    height: 395px;
-  }
-
   .desktop\:h-\[400px\] {
     height: 400px;
   }
@@ -1800,10 +1712,6 @@ video {
 
   .desktop\:w-\[350px\] {
     width: 350px;
-  }
-
-  .desktop\:w-\[420px\] {
-    width: 420px;
   }
 
   .desktop\:w-\[468px\] {
@@ -1888,14 +1796,6 @@ video {
 
   .desktop\:text-\[16px\] {
     font-size: 16px;
-  }
-
-  .desktop\:text-\[20px\] {
-    font-size: 20px;
-  }
-
-  .desktop\:text-\[30px\] {
-    font-size: 30px;
   }
 
   .desktop\:leading-8 {
