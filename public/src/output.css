@@ -575,6 +575,11 @@ video {
   margin-right: auto;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -609,6 +614,10 @@ video {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .mt-\[15px\] {
@@ -692,6 +701,10 @@ video {
 
 .h-\[33px\] {
   height: 33px;
+}
+
+.h-\[350px\] {
+  height: 350px;
 }
 
 .h-\[35px\] {
@@ -794,6 +807,14 @@ video {
   height: 100vh;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
 .w-\[100px\] {
   width: 100px;
 }
@@ -838,6 +859,14 @@ video {
   width: 318px;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
 .w-\[40px\] {
   width: 40px;
 }
@@ -858,6 +887,10 @@ video {
   width: 80%;
 }
 
+.w-\[93\%\] {
+  width: 93%;
+}
+
 .w-\[97\%\] {
   width: 97%;
 }
@@ -872,6 +905,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[450px\] {
+  width: 450px;
 }
 
 .max-w-full {
@@ -941,6 +978,18 @@ video {
 
 .gap-y-20 {
   row-gap: 5rem;
+}
+
+.gap-y-5 {
+  row-gap: 1.25rem;
+}
+
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
+
+.gap-y-2 {
+  row-gap: 0.5rem;
 }
 
 .rounded-2xl {
@@ -1054,6 +1103,16 @@ video {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/icon1-1-1\.png\'\)\] {
   background-image: url('https://www.golestan.com/wp-content/uploads/2023/01/icon1-1-1.png');
 }
@@ -1107,6 +1166,11 @@ video {
   padding-right: 22px;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1115,6 +1179,16 @@ video {
 .py-\[15px\] {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-1 {
@@ -1259,6 +1333,18 @@ video {
 
 .leading-\[60px\] {
   line-height: 60px;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[33px\] {
+  line-height: 33px;
 }
 
 .text-\[\#002021\] {
@@ -1445,6 +1531,14 @@ video {
     margin-right: auto;
   }
 
+  .mobile\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .mobile\:mt-\[10px\] {
+    margin-top: 10px;
+  }
+
   .mobile\:hidden {
     display: none;
   }
@@ -1551,6 +1645,10 @@ video {
 
   .mobile\:p-\[20px\] {
     padding: 20px;
+  }
+
+  .mobile\:pr-12 {
+    padding-right: 3rem;
   }
 
   .mobile\:pr-\[30px\] {
@@ -1678,6 +1776,10 @@ video {
 
   .desktop\:h-\[420px\] {
     height: 420px;
+  }
+
+  .desktop\:h-\[457px\] {
+    height: 457px;
   }
 
   .desktop\:h-\[70px\] {
