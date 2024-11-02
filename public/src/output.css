@@ -627,10 +627,6 @@ video {
   margin-top: 50px;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -858,6 +854,10 @@ video {
   width: 60%;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .w-\[97\%\] {
   width: 97%;
 }
@@ -872,14 +872,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[70\%\] {
-  width: 70%;
-}
-
-.w-\[80\%\] {
-  width: 80%;
 }
 
 .max-w-full {
@@ -1062,10 +1054,6 @@ video {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#FF0000\]\/\[0\.3\] {
-  background-color: rgb(255 0 0 / 0.3);
-}
-
 .bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/icon1-1-1\.png\'\)\] {
   background-image: url('https://www.golestan.com/wp-content/uploads/2023/01/icon1-1-1.png');
 }
@@ -1104,6 +1092,11 @@ video {
   padding-right: 0.75rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
@@ -1122,11 +1115,6 @@ video {
 .py-\[15px\] {
   padding-top: 15px;
   padding-bottom: 15px;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .pb-1 {
@@ -1509,36 +1497,16 @@ video {
     width: 500px;
   }
 
+  .mobile\:w-\[75\%\] {
+    width: 75%;
+  }
+
   .mobile\:w-\[99\%\] {
     width: 99%;
   }
 
   .mobile\:w-full {
     width: 100%;
-  }
-
-  .mobile\:w-\[\] {
-    width: ;
-  }
-
-  .mobile\:w-\[80\%\] {
-    width: 80%;
-  }
-
-  .mobile\:w-\[60\%\] {
-    width: 60%;
-  }
-
-  .mobile\:w-\[50\%\] {
-    width: 50%;
-  }
-
-  .mobile\:w-\[70\%\] {
-    width: 70%;
-  }
-
-  .mobile\:w-\[75\%\] {
-    width: 75%;
   }
 
   .mobile\:flex-row {
@@ -1551,10 +1519,6 @@ video {
 
   .mobile\:flex-col-reverse {
     flex-direction: column-reverse;
-  }
-
-  .mobile\:items-start {
-    align-items: flex-start;
   }
 
   .mobile\:items-center {
@@ -1581,33 +1545,8 @@ video {
     gap: 0.75rem;
   }
 
-  .mobile\:gap-7 {
-    gap: 1.75rem;
-  }
-
-  .mobile\:gap-8 {
-    gap: 2rem;
-  }
-
-  .mobile\:gap-12 {
-    gap: 3rem;
-  }
-
-  .mobile\:gap-x-8 {
-    -moz-column-gap: 2rem;
-         column-gap: 2rem;
-  }
-
-  .mobile\:gap-y-8 {
-    row-gap: 2rem;
-  }
-
   .mobile\:gap-y-14 {
     row-gap: 3.5rem;
-  }
-
-  .mobile\:gap-y-12 {
-    row-gap: 3rem;
   }
 
   .mobile\:p-\[20px\] {
@@ -1729,6 +1668,10 @@ video {
     height: 376px;
   }
 
+  .desktop\:h-\[395px\] {
+    height: 395px;
+  }
+
   .desktop\:h-\[400px\] {
     height: 400px;
   }
@@ -1743,10 +1686,6 @@ video {
 
   .desktop\:h-\[inherit\] {
     height: inherit;
-  }
-
-  .desktop\:h-\[395px\] {
-    height: 395px;
   }
 
   .desktop\:w-5\/6 {
