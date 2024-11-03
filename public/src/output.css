@@ -807,6 +807,18 @@ video {
   height: 290px;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
 .w-\[100px\] {
   width: 100px;
 }
@@ -909,6 +921,10 @@ video {
 
 .w-\[70\%\] {
   width: 70%;
+}
+
+.w-\[\] {
+  width: ;
 }
 
 .max-w-full {
@@ -1121,6 +1137,14 @@ video {
 
 .bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/icon6-1-2\.png\'\)\] {
   background-image: url('https://www.golestan.com/wp-content/uploads/2023/01/icon6-1-2.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .object-cover {
