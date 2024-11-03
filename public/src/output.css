@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -562,28 +566,32 @@ video {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .right-\[-20px\] {
   right: -20px;
+}
+
+.right-\[350px\] {
+  right: 350px;
 }
 
 .top-\[30px\] {
   top: 30px;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
 .m-\[20px\] {
   margin: 20px;
-}
-
-.m-\[3px\] {
-  margin: 3px;
-}
-
-.m-\[\] {
-  margin: ;
-}
-
-.m-\[10px\] {
-  margin: 10px;
 }
 
 .mx-auto {
@@ -660,12 +668,8 @@ video {
   margin-top: 80px;
 }
 
-.mb-\[\] {
-  margin-bottom: ;
-}
-
-.mb-\[20p\] {
-  margin-bottom: 20p;
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .box-border {
@@ -839,12 +843,36 @@ video {
   height: 95px;
 }
 
+.h-\[97px\] {
+  height: 97px;
+}
+
 .h-\[auto\] {
   height: auto;
 }
 
 .h-\[inherit\] {
   height: inherit;
+}
+
+.h-\[495px\] {
+  height: 495px;
+}
+
+.h-\[5155px\] {
+  height: 5155px;
+}
+
+.h-\[515px\] {
+  height: 515px;
+}
+
+.h-\[55px\] {
+  height: 55px;
+}
+
+.h-\[535px\] {
+  height: 535px;
 }
 
 .min-h-\[450px\] {
@@ -865,10 +893,6 @@ video {
 
 .w-\[136px\] {
   width: 136px;
-}
-
-.w-\[140px\] {
-  width: 140px;
 }
 
 .w-\[1600px\] {
@@ -927,8 +951,8 @@ video {
   width: 60%;
 }
 
-.w-\[65\%\] {
-  width: 65%;
+.w-\[63\%\] {
+  width: 63%;
 }
 
 .w-\[80\%\] {
@@ -953,22 +977,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[66\%\] {
-  width: 66%;
-}
-
-.w-\[67\%\] {
-  width: 67%;
-}
-
-.w-\[160px\] {
-  width: 160px;
-}
-
-.w-\[10px\] {
-  width: 10px;
 }
 
 .max-w-full {
@@ -1001,10 +1009,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .justify-around {
@@ -1051,6 +1055,14 @@ video {
 
 .gap-y-20 {
   row-gap: 5rem;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .overflow-y-scroll {
@@ -1189,14 +1201,19 @@ video {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
-.bg-slate-300 {
+.bg-slate-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/icon1-1-1\.png\'\)\] {
@@ -1258,6 +1275,10 @@ video {
      object-fit: fill;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-\[10px\] {
   padding: 10px;
 }
@@ -1268,10 +1289,6 @@ video {
 
 .p-\[5px\] {
   padding: 5px;
-}
-
-.p-\[15px\] {
-  padding: 15px;
 }
 
 .px-1 {
@@ -1318,6 +1335,10 @@ video {
 
 .pr-1 {
   padding-right: 0.25rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .pr-4 {
@@ -1372,8 +1393,8 @@ video {
   padding-top: 75px;
 }
 
-.pb-\[20px\] {
-  padding-bottom: 20px;
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -1426,6 +1447,10 @@ video {
 
 .text-\[28px\] {
   font-size: 28px;
+}
+
+.text-\[29px\] {
+  font-size: 29px;
 }
 
 .text-\[30px\] {
@@ -1809,12 +1834,20 @@ video {
 }
 
 @media (min-width: 1000px) {
+  .desktop\:fixed {
+    position: fixed;
+  }
+
   .desktop\:absolute {
     position: absolute;
   }
 
   .desktop\:relative {
     position: relative;
+  }
+
+  .desktop\:sticky {
+    position: sticky;
   }
 
   .desktop\:right-\[90px\] {
@@ -1827,6 +1860,10 @@ video {
 
   .desktop\:top-\[50px\] {
     top: 50px;
+  }
+
+  .desktop\:top-\[44px\] {
+    top: 44px;
   }
 
   .desktop\:my-auto {
@@ -1898,6 +1935,18 @@ video {
     height: inherit;
   }
 
+  .desktop\:h-\[497px\] {
+    height: 497px;
+  }
+
+  .desktop\:h-\[517px\] {
+    height: 517px;
+  }
+
+  .desktop\:h-\[547px\] {
+    height: 547px;
+  }
+
   .desktop\:min-h-\[440px\] {
     min-height: 440px;
   }
@@ -1908,6 +1957,10 @@ video {
 
   .desktop\:w-\[150px\] {
     width: 150px;
+  }
+
+  .desktop\:w-\[290px\] {
+    width: 290px;
   }
 
   .desktop\:w-\[350px\] {
@@ -1940,6 +1993,22 @@ video {
 
   .desktop\:w-full {
     width: 100%;
+  }
+
+  .desktop\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .desktop\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .desktop\:w-\[\] {
+    width: ;
+  }
+
+  .desktop\:w-\[full\] {
+    width: full;
   }
 
   .desktop\:flex-row {
@@ -2013,6 +2082,10 @@ video {
   .desktop\:text-\[\#9F9F9F\] {
     --tw-text-opacity: 1;
     color: rgb(159 159 159 / var(--tw-text-opacity));
+  }
+
+  .desktop\:\*\:relative > * {
+    position: relative;
   }
 }
 
