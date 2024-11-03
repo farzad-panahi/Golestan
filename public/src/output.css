@@ -1825,6 +1825,14 @@ video {
     padding-top: 40px;
   }
 
+  .mobile\:pt-\[\] {
+    padding-top: ;
+  }
+
+  .mobile\:pt-\[130px\] {
+    padding-top: 130px;
+  }
+
   .mobile\:text-center {
     text-align: center;
   }
@@ -2055,6 +2063,10 @@ video {
 
   .desktop\:pt-\[50px\] {
     padding-top: 50px;
+  }
+
+  .desktop\:pt-\[70px\] {
+    padding-top: 70px;
   }
 
   .desktop\:text-right {
