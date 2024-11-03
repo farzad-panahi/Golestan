@@ -843,6 +843,14 @@ video {
   height: 601px;
 }
 
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[150px\] {
+  height: 150px;
+}
+
 .min-h-\[450px\] {
   min-height: 450px;
 }
@@ -969,6 +977,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-normal {
+  justify-content: normal;
 }
 
 .justify-start {
@@ -1193,6 +1205,11 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .p-\[10px\] {
