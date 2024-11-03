@@ -570,6 +570,14 @@ video {
   bottom: 0px;
 }
 
+.bottom-\[15px\] {
+  bottom: 15px;
+}
+
+.left-\[15px\] {
+  left: 15px;
+}
+
 .right-\[-20px\] {
   right: -20px;
 }
@@ -582,12 +590,8 @@ video {
   top: 30px;
 }
 
-.top-10 {
-  top: 2.5rem;
-}
-
-.z-0 {
-  z-index: 0;
+.z-\[9999\] {
+  z-index: 9999;
 }
 
 .m-\[20px\] {
@@ -664,12 +668,12 @@ video {
   margin-top: 50px;
 }
 
-.mt-\[80px\] {
-  margin-top: 80px;
+.mt-\[7px\] {
+  margin-top: 7px;
 }
 
-.mt-7 {
-  margin-top: 1.75rem;
+.mt-\[80px\] {
+  margin-top: 80px;
 }
 
 .box-border {
@@ -689,6 +693,11 @@ video {
 
 .hidden {
   display: none;
+}
+
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .h-\[120px\] {
@@ -855,26 +864,6 @@ video {
   height: inherit;
 }
 
-.h-\[495px\] {
-  height: 495px;
-}
-
-.h-\[5155px\] {
-  height: 5155px;
-}
-
-.h-\[515px\] {
-  height: 515px;
-}
-
-.h-\[55px\] {
-  height: 55px;
-}
-
-.h-\[535px\] {
-  height: 535px;
-}
-
 .min-h-\[450px\] {
   min-height: 450px;
 }
@@ -937,6 +926,10 @@ video {
 
 .w-\[400px\] {
   width: 400px;
+}
+
+.w-\[40px\] {
+  width: 40px;
 }
 
 .w-\[45px\] {
@@ -1057,16 +1050,8 @@ video {
   row-gap: 5rem;
 }
 
-.overflow-auto {
-  overflow: auto;
-}
-
 .overflow-hidden {
   overflow: hidden;
-}
-
-.overflow-y-scroll {
-  overflow-y: scroll;
 }
 
 .rounded-2xl {
@@ -1192,6 +1177,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[rgb\(0\2c 0\2c 0\)\]\/\[0\.4\] {
+  background-color: rgb(0 0 0 / 0.4);
+}
+
 .bg-black\/\[0\.2\] {
   background-color: rgb(0 0 0 / 0.2);
 }
@@ -1201,19 +1190,9 @@ video {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
-.bg-slate-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/icon1-1-1\.png\'\)\] {
@@ -1238,10 +1217,6 @@ video {
 
 .bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/icon6-1-2\.png\'\)\] {
   background-image: url('https://www.golestan.com/wp-content/uploads/2023/01/icon6-1-2.png');
-}
-
-.bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/recipe-baner-1\.png\'\)\] {
-  background-image: url('https://www.golestan.com/wp-content/uploads/2023/01/recipe-baner-1.png');
 }
 
 .bg-cover {
@@ -1389,12 +1364,12 @@ video {
   padding-top: 50px;
 }
 
-.pt-\[75px\] {
-  padding-top: 75px;
+.pt-\[70px\] {
+  padding-top: 70px;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.pt-\[75px\] {
+  padding-top: 75px;
 }
 
 .text-center {
@@ -1610,8 +1585,18 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-700 {
   transition-duration: 700ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 @font-face{
@@ -1638,6 +1623,11 @@ video {
 .hover\:bg-\[\#FFFFFF\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/icon1-1\.png\'\)\]:hover {
@@ -1690,6 +1680,10 @@ video {
 }
 
 @media (min-width: 340px) {
+  .mobile\:fixed {
+    position: fixed;
+  }
+
   .mobile\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1719,8 +1713,16 @@ video {
     height: 200px;
   }
 
+  .mobile\:h-\[600px\] {
+    height: 600px;
+  }
+
   .mobile\:h-auto {
     height: auto;
+  }
+
+  .mobile\:w-\[100\%\] {
+    width: 100%;
   }
 
   .mobile\:w-\[154px\] {
@@ -1803,6 +1805,22 @@ video {
     padding-right: 30px;
   }
 
+  .mobile\:pt-\[100px\] {
+    padding-top: 100px;
+  }
+
+  .mobile\:pt-\[140px\] {
+    padding-top: 140px;
+  }
+
+  .mobile\:pt-\[150px\] {
+    padding-top: 150px;
+  }
+
+  .mobile\:pt-\[180px\] {
+    padding-top: 180px;
+  }
+
   .mobile\:pt-\[40px\] {
     padding-top: 40px;
   }
@@ -1842,14 +1860,6 @@ video {
     position: absolute;
   }
 
-  .desktop\:relative {
-    position: relative;
-  }
-
-  .desktop\:sticky {
-    position: sticky;
-  }
-
   .desktop\:right-\[90px\] {
     right: 90px;
   }
@@ -1860,10 +1870,6 @@ video {
 
   .desktop\:top-\[50px\] {
     top: 50px;
-  }
-
-  .desktop\:top-\[44px\] {
-    top: 44px;
   }
 
   .desktop\:my-auto {
@@ -1915,8 +1921,12 @@ video {
     height: 400px;
   }
 
-  .desktop\:h-\[457px\] {
-    height: 457px;
+  .desktop\:h-\[530px\] {
+    height: 530px;
+  }
+
+  .desktop\:h-\[580px\] {
+    height: 580px;
   }
 
   .desktop\:h-\[700px\] {
@@ -1933,18 +1943,6 @@ video {
 
   .desktop\:h-\[inherit\] {
     height: inherit;
-  }
-
-  .desktop\:h-\[497px\] {
-    height: 497px;
-  }
-
-  .desktop\:h-\[517px\] {
-    height: 517px;
-  }
-
-  .desktop\:h-\[547px\] {
-    height: 547px;
   }
 
   .desktop\:min-h-\[440px\] {
@@ -1991,24 +1989,8 @@ video {
     width: 83%;
   }
 
-  .desktop\:w-full {
-    width: 100%;
-  }
-
-  .desktop\:w-\[100\%\] {
-    width: 100%;
-  }
-
-  .desktop\:w-\[80\%\] {
-    width: 80%;
-  }
-
-  .desktop\:w-\[\] {
-    width: ;
-  }
-
-  .desktop\:w-\[full\] {
-    width: full;
+  .desktop\:w-\[83\.4\%\] {
+    width: 83.4%;
   }
 
   .desktop\:flex-row {
@@ -2059,8 +2041,20 @@ video {
     padding-right: 300px;
   }
 
+  .desktop\:pt-\[100px\] {
+    padding-top: 100px;
+  }
+
+  .desktop\:pt-\[130px\] {
+    padding-top: 130px;
+  }
+
   .desktop\:pt-\[30px\] {
     padding-top: 30px;
+  }
+
+  .desktop\:pt-\[50px\] {
+    padding-top: 50px;
   }
 
   .desktop\:text-right {
@@ -2082,10 +2076,6 @@ video {
   .desktop\:text-\[\#9F9F9F\] {
     --tw-text-opacity: 1;
     color: rgb(159 159 159 / var(--tw-text-opacity));
-  }
-
-  .desktop\:\*\:relative > * {
-    position: relative;
   }
 }
 
