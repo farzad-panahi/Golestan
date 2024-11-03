@@ -570,6 +570,10 @@ video {
   top: 30px;
 }
 
+.m-\[40px\] {
+  margin: 40px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -578,6 +582,11 @@ video {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-\[40px\] {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .mb-10 {
@@ -811,6 +820,14 @@ video {
   height: 100vh;
 }
 
+.h-\[450px\] {
+  height: 450px;
+}
+
+.h-\[772px\] {
+  height: 772px;
+}
+
 .min-h-\[450px\] {
   min-height: 450px;
 }
@@ -883,10 +900,6 @@ video {
   width: 80%;
 }
 
-.w-\[93\%\] {
-  width: 93%;
-}
-
 .w-\[97\%\] {
   width: 97%;
 }
@@ -897,6 +910,10 @@ video {
 
 .w-\[full\] {
   width: full;
+}
+
+.w-\[inherit\] {
+  width: inherit;
 }
 
 .w-full {
@@ -939,6 +956,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-around {
   justify-content: space-around;
 }
@@ -970,6 +991,10 @@ video {
 
 .gap-y-20 {
   row-gap: 5rem;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .rounded-2xl {
@@ -1006,11 +1031,6 @@ video {
 .bg-\[\#302f2f\] {
   --tw-bg-opacity: 1;
   background-color: rgb(48 47 47 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#493535\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(73 53 53 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#4A4A4A\]\/\[0\.3\] {
@@ -1083,6 +1103,35 @@ video {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#cc6c6c\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(204 108 108 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f3e1e1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 225 225 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#ffffff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-rose-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 205 211 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/icon1-1-1\.png\'\)\] {
   background-image: url('https://www.golestan.com/wp-content/uploads/2023/01/icon1-1-1.png');
 }
@@ -1107,18 +1156,46 @@ video {
   background-image: url('https://www.golestan.com/wp-content/uploads/2023/01/icon6-1-2.png');
 }
 
+.bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/recipe-baner-1\.png\'\)\] {
+  background-image: url('https://www.golestan.com/wp-content/uploads/2023/01/recipe-baner-1.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
-}
-
 .p-\[20px\] {
   padding: 20px;
+}
+
+.p-\[\] {
+  padding: ;
+}
+
+.p-\[10px\] {
+  padding: 10px;
 }
 
 .px-1 {
@@ -1216,6 +1293,10 @@ video {
   padding-top: 75px;
 }
 
+.pr-\[300px\] {
+  padding-right: 300px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1230,6 +1311,10 @@ video {
 
 .font-\[\'iransans\'\] {
   font-family: 'iransans';
+}
+
+.font-\[\'\'\] {
+  font-family: '';
 }
 
 .text-\[13px\] {
@@ -1312,6 +1397,14 @@ video {
   line-height: 60px;
 }
 
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[120px\] {
+  line-height: 120px;
+}
+
 .text-\[\#002021\] {
   --tw-text-opacity: 1;
   color: rgb(0 32 33 / var(--tw-text-opacity));
@@ -1383,6 +1476,10 @@ video {
 .text-\[\#dc1b22\] {
   --tw-text-opacity: 1;
   color: rgb(220 27 34 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .shadow-2xl {
@@ -1608,6 +1705,10 @@ video {
     padding-top: 40px;
   }
 
+  .mobile\:pr-\[10px\] {
+    padding-right: 10px;
+  }
+
   .mobile\:text-center {
     text-align: center;
   }
@@ -1653,6 +1754,11 @@ video {
 
   .desktop\:top-\[50px\] {
     top: 50px;
+  }
+
+  .desktop\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .desktop\:mt-\[130px\] {
@@ -1715,6 +1821,10 @@ video {
     height: inherit;
   }
 
+  .desktop\:min-h-\[440px\] {
+    min-height: 440px;
+  }
+
   .desktop\:w-5\/6 {
     width: 83.333333%;
   }
@@ -1737,6 +1847,10 @@ video {
 
   .desktop\:w-\[700px\] {
     width: 700px;
+  }
+
+  .desktop\:w-\[71\%\] {
+    width: 71%;
   }
 
   .desktop\:w-\[710px\] {
@@ -1801,6 +1915,10 @@ video {
 
   .desktop\:pt-\[30px\] {
     padding-top: 30px;
+  }
+
+  .desktop\:pr-\[300px\] {
+    padding-right: 300px;
   }
 
   .desktop\:text-right {
