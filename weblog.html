@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="en" dir="rtl" class="">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./public/images/logo/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./public/images/logo/logo.png" sizes="32x32" />
   <link rel="stylesheet" href="./public/src/output.css">
-  <link rel="stylesheet" href="./node_modules/animate.css/animate.css">
+  <link rel="stylesheet" href="./animate.css/animate.css">
   <title>صفحه اصلی - وب سایت رسمی شرکت گلستان | golestan</title>
 </head>
-<body>
+<body class="mobile:relative" >
+  <!-- Dark-Icon -->
+  <!-- ***************************************************************** -->
+   <div class="mobile:fixed mobile:top-0 mobile:right-0 mobile:bg-gray-700 mobile:z-[100000] desktop:fixed desktop:top-[15px] desktop:right-[15px] w-[40px] h-[40px] border-solid border rounded-md border-gray-200 bg-[rgb(0,0,0)]/[0.4] dark:bg-slate-200  mobile:border-none text-center p-[6px]">
+    <button id="togglebtn">
+
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-[#FFFFFF]  dark:text-[#2b2b2b]">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+      </svg>
+
+    </button>
+
+   </div> 
   <!--Go Up  -->
   <!-- ***************************************************************** -->
 <a class="" href="#"><div class="  fixed bottom-[15px] left-[15px] w-[40px] h-[40px]  rounded-md bg-[rgb(0,0,0)]/[0.4] hover:bg-gray-300"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-6 text-[#FFFFFF] mx-auto mt-[7px] ">
   <path stroke-linecap="round" stroke-linejoin="round"  d="m4.5 15.75 7.5-7.5 7.5 7.5" />
 </svg>
 </div></a>
-  <div class="full w-full bg-[#E9E9E9]">
+  <div class="full w-full bg-[#E9E9E9] dark:bg-[#2b2b2b]">
     <div class="wrapper desktop:w-5/6 mobile:w-full shadow-2xl mx-auto">
       
       <div class="menu desktop:w-[83.4%] mobile:w-[100%] z-[9999] desktop:fixed mobile:fixed desktop:h-[100px]  mobile:h-[182px] bg-[#292929] desktop:flex desktop:flex-wrap mx-auto desktop:items-center  "> 
@@ -28,7 +40,8 @@
         <!-- Start-Menu -->
         <!-- ************************************************************************ -->
         <div class="mx-auto">
-          <nav class=" desktop:h-[70px] mobile:hidden font-['iransans'] desktop:flex desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-3 ">
+          <nav class=" desktop:h-[70px] mobile:flex mobile:flex-wrap mobile:text-[13px] font-['iransans'] desktop:flex desktop:flex-wrap mobile:pt-[20px] desktop:pt-[0] justify-center desktop:items-center desktop:gap-3 mobile:gap-1 ">
+            
             <div class=" "><a href="index.html" class="text-[#FFFFFF]  desktop:text-[16px] font-['iransans']  ">صفحه اصلی</a></div>
             <div class="w-[1px] h-[25px] bg-[#FFFFFF]/[0.6]"></div>
 
@@ -94,12 +107,12 @@
             <!-- End_تماس با ما_Menu -->
           </nav>
 
-          <div class="w-[50px] h-[50px] bg-[#292929] hamburger  desktop:hidden mt-[20px] mr-[25px] flex flex-wrap ">
+          <!-- <div class="w-[50px] h-[50px] bg-[#292929] hamburger  desktop:hidden mt-[20px] mr-[25px] flex flex-wrap ">
             
             <div class="w-[45px] h-[8px]  bg-gray-400 rounded-2xl hover:bg-[#FFFFFF]"></div>
             <div class="w-[45px] h-[8px]  bg-gray-400 rounded-2xl hover:bg-[#FFFFFF]"></div>
             <div class="w-[45px] h-[8px]  bg-gray-400 rounded-2xl hover:bg-[#FFFFFF]"></div>
-          </div>
+          </div> -->
         </div>
         <!-- End-Menu -->
 
@@ -111,186 +124,186 @@
         <!-- Start Body weblog -->
         <!-- ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
         
-            <div class="w-full h-[157px] pt-[75px] pb-[45px]  bg-[#FFFFFF] mx-auto   mobile:text-center">
-                <div class="w-[100px] h-[47px] bg-[#FFFFFF] justify-start mr-20" >
-                <h1 class="text-[22px] font-['iransans'] text-[#FF0000] font-bold  mx-auto">وبلاگ</h1>
+            <div class="w-full h-[157px] desktop:pt-[175px] mobile:pt-[225px] pb-[45px]  bg-[#FFFFFF] dark:bg-[#494848] mx-auto   mobile:text-center ">
+                <div class="w-[100px] h-[47px] bg-[#FFFFFF] dark:bg-[#494848] justify-start mr-20" >
+                <h1 class="text-[22px] font-['iransans'] text-[#FF0000] dark:bg-[#494848] font-bold  mx-auto">وبلاگ</h1>
                 </div>
             </div>
 
-            <div class="w-full h-[inherit] bg-[#F7F9FB] flex flex-wrap justify-center">
-                <div class="desktop:w-[83%] mobile:w-[40%] h-[inherit] flex flex-wrap justify-center content-start gap-x-4 gap-y-20 mt-[50px] mb-[100px] ">
+            <div class="w-full h-[inherit] bg-[#F7F9FB] dark:bg-[#494848] flex flex-wrap justify-center">
+                <div class="desktop:w-[83%] mobile:w-[full] h-[inherit] dark:bg-[#FFFFFF]/[0.5] flex flex-wrap justify-center content-start gap-x-4 gap-y-20 mt-[50px] mb-[100px] ">
                     
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center ">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image01.jpeg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">راهنمای کامل روش پخت انواع حبوبات</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">راهنمای کامل روش پخت حبوبات مختلف حبوبات در هر آشپزخانه‌ای جایگاه ویژه‌ای دارند. این دانه‌های مغذی در وعده‌های غذایی روزمره ما انسان‎ها نقشی پررنگ دارند</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">راهنمای کامل روش پخت حبوبات مختلف حبوبات در هر آشپزخانه‌ای جایگاه ویژه‌ای دارند. این دانه‌های مغذی در وعده‌های غذایی روزمره ما انسان‎ها نقشی پررنگ دارند</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
 
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover" src="./public/images/weblog/image02.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">تاریخچه برنج</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">تاریخچه برنج برنج ماده اصلی غذایی بیش از یک سوم جمعیت جهان است، در شرق آسیا و منطقه خاورمیانه نیز برنج یکی از پر اهمیت‌ترین</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">تاریخچه برنج برنج ماده اصلی غذایی بیش از یک سوم جمعیت جهان است، در شرق آسیا و منطقه خاورمیانه نیز برنج یکی از پر اهمیت‌ترین</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                     
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image03.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">زرشک راز سلامتی</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">زرشک، سرآغازی برای سلامت قلب و آرامش فواید زرشک که با نام علمی Berberis vulgaris شناخته می‌شود فراوان و برای سلامتی مفید است. در گذشته</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">زرشک، سرآغازی برای سلامت قلب و آرامش فواید زرشک که با نام علمی Berberis vulgaris شناخته می‌شود فراوان و برای سلامتی مفید است. در گذشته</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                     
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image04.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">
                         تاریخچه برنج : روش‌های تشخیص برنج مرغوب ایرانی			</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">روش‌های تشخیص برنج مرغوب ایران برنج، عضو جدایی ناپذیره سفره ما ایرانی‌هاست. تقریبا در جوامع خاورمیانه و خصوصا شرق آسیا برنج قوت غالب اکثر مردم</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">روش‌های تشخیص برنج مرغوب ایران برنج، عضو جدایی ناپذیره سفره ما ایرانی‌هاست. تقریبا در جوامع خاورمیانه و خصوصا شرق آسیا برنج قوت غالب اکثر مردم</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                     
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image05.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">
                         زعفران: انواع زعفران و ویژگی زعفران ایرانی			</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">زعفران: انواع زعفران و ویژگی زعفران ایرانی زعفران از دیرباز نزد ایرانیان و سایر جهانیان از ادویه‌های محبوب و گرانبها محسوب میشده. زعفران به خاطر
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">زعفران: انواع زعفران و ویژگی زعفران ایرانی زعفران از دیرباز نزد ایرانیان و سایر جهانیان از ادویه‌های محبوب و گرانبها محسوب میشده. زعفران به خاطر
             
                         </div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                     
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image06.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">خواص جوز هندی</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">از خواص جوز هندی چه می‌دانیدجادوی ادویه‌ها در طعم دادن به انواع غذاها و نوشیدنی‌ها کلید خوشمزه شدن آنها محسوب می‌شود. جوز هندی یکی از</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">از خواص جوز هندی چه می‌دانیدجادوی ادویه‌ها در طعم دادن به انواع غذاها و نوشیدنی‌ها کلید خوشمزه شدن آنها محسوب می‌شود. جوز هندی یکی از</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
             
                 
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image07.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">خواص منحصربه‌فرد چای سبز</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-6">خواص منحصر به فرد چای سبز چای سبز به دلیل حضور مقدار زیاد آنتی‌اکسیدان قوی اپی‌گالوکاتچین گالات(EGCG)، می‌تواند در پیشگیری از برخی انواع سرطان‌ها مانند</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-6">خواص منحصر به فرد چای سبز چای سبز به دلیل حضور مقدار زیاد آنتی‌اکسیدان قوی اپی‌گالوکاتچین گالات(EGCG)، می‌تواند در پیشگیری از برخی انواع سرطان‌ها مانند</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                     
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image08.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">خواص منحصربه‌فرد چای سیاه</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">خواص منحصر به فرد چای سیاه چای سیاه که اغلب ما با نام چای می‌شناسیم دارای ویژگی‌ها و فواید خاصی است که آن را از</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">خواص منحصر به فرد چای سیاه چای سیاه که اغلب ما با نام چای می‌شناسیم دارای ویژگی‌ها و فواید خاصی است که آن را از</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                     
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image09.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">تفاوت چای سیاه و سبز در چیست؟</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">تفاوت چای سیاه و سبز در چیست؟ چای سبز سالم تر است یا چای سیاه؟</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">تفاوت چای سیاه و سبز در چیست؟ چای سبز سالم تر است یا چای سیاه؟</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                     
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image10.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">طرز تهیه تاکو غذای مشهور مکزیکی</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">طرز تهیه تاکو مکزیکی یکی از غذاهای معروف مکزیکی تاکو است، تاکو شهرت جهانی دارد و در همه نقاط دنیا طرفداران فراوانی پیدا کرده است.</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">طرز تهیه تاکو مکزیکی یکی از غذاهای معروف مکزیکی تاکو است، تاکو شهرت جهانی دارد و در همه نقاط دنیا طرفداران فراوانی پیدا کرده است.</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                                         
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image11.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">حبوبات منبع عالی پروتئین و انرژی</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">حبوبات: منبع پروتئین و انرژی حبوبات، یکی از پرمصرف‌ترین ماده‌های غذایی در سر سفره ما ایرانیان است که به خاطر ارزش غذایی بسیار بالایشان جایگاه</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">حبوبات: منبع پروتئین و انرژی حبوبات، یکی از پرمصرف‌ترین ماده‌های غذایی در سر سفره ما ایرانیان است که به خاطر ارزش غذایی بسیار بالایشان جایگاه</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                                         
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center ">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image12.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">رازهایی درباره فرآوری و تولید چای</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">تاریخچه تولید چای؛ رازهایی درباره فرآوری و تولید چای تولید چای از اینجا اهمیت دارد که چای، یکی از جدایی‌ناپذیرترین نوشیدنی‌های برای مردم ایران محسوب</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">تاریخچه تولید چای؛ رازهایی درباره فرآوری و تولید چای تولید چای از اینجا اهمیت دارد که چای، یکی از جدایی‌ناپذیرترین نوشیدنی‌های برای مردم ایران محسوب</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                     
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image13.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">تاریخچه برنج قهوه‌ای</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">تاریخچه تولید و مصرف برنج قهوه‌ای در گذشته ایران و بسیاری از کشورهای جهان، برنج سفید را تنها نوع برنج موجود می‌دانستند. گذرزمان باعث شد</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">تاریخچه تولید و مصرف برنج قهوه‌ای در گذشته ایران و بسیاری از کشورهای جهان، برنج سفید را تنها نوع برنج موجود می‌دانستند. گذرزمان باعث شد</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
             
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image14.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">بهترین دمنوش‌های آرامبخش</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">تاریخچه تولید چای؛ رازهایی درباره فرآوری و تولید چای فنجانی نوشیدنی گرم می‌تواند یک عصر زیبا و آرام را برایتان به ارمغان بیاورد. دمنوش‌های آرامبخش</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">تاریخچه تولید چای؛ رازهایی درباره فرآوری و تولید چای فنجانی نوشیدنی گرم می‌تواند یک عصر زیبا و آرام را برایتان به ارمغان بیاورد. دمنوش‌های آرامبخش</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
             
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image15.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">برگر عدس</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">اگر دوست دارید که یک برگر گیاهی و کاملاً سالم داشته باشید برگر عدس یک انتخاب مناسب برای شماست. عدس سرشار از پروتئین است و</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">اگر دوست دارید که یک برگر گیاهی و کاملاً سالم داشته باشید برگر عدس یک انتخاب مناسب برای شماست. عدس سرشار از پروتئین است و</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                     
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image16.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">باندنت کیک شکلاتی</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">باندنت کیک مانند سایر کیک‌ها به روش عادی پخته می‌شود. اسم این کیک از ظرف باندنت گرفته شده است. در واقع مایع و مواد کیک</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">باندنت کیک مانند سایر کیک‌ها به روش عادی پخته می‌شود. اسم این کیک از ظرف باندنت گرفته شده است. در واقع مایع و مواد کیک</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
             
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image17.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">آش انار</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">برای تهیه این آش از شب قبل حبوبات را بخیسانید. در ادامه برنج، بلغور، لوبیا و عدس را بشورید و داخل یک قابلمه مناسب بریزید. در این مرحله چند لیوان آب به قابلمه…</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">برای تهیه این آش از شب قبل حبوبات را بخیسانید. در ادامه برنج، بلغور، لوبیا و عدس را بشورید و داخل یک قابلمه مناسب بریزید. در این مرحله چند لیوان آب به قابلمه…</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
             
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image18.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">رولت مرغ</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">پیاز و سیر را در کاسه‌ی بزرگی رنده کنید. سپس مرغ چرخ شده، پودر سوخاری، تخم مرغ، زعفران دم‌کرده، نمک، فلفل سیاه، پودر پاپریکا و پودر گوجه را به آن اضافه کنید و …</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">پیاز و سیر را در کاسه‌ی بزرگی رنده کنید. سپس مرغ چرخ شده، پودر سوخاری، تخم مرغ، زعفران دم‌کرده، نمک، فلفل سیاه، پودر پاپریکا و پودر گوجه را به آن اضافه کنید و …</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                     
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image19.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">کیک ردولوت</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">مواد لازم آرد سفید گلستان یک و نیم پیمانهشکر یک و نیم پیمانهتخم مرغ دو عددباتر میلک یک پیمانهروغن مایع حدود یک پیمانهبیکینگ پودر گلستان</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">مواد لازم آرد سفید گلستان یک و نیم پیمانهشکر یک و نیم پیمانهتخم مرغ دو عددباتر میلک یک پیمانهروغن مایع حدود یک پیمانهبیکینگ پودر گلستان</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                                                                         
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image20.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">استیک با سس قارچ</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">استیک را باید در تابه چدنی سرخ کرده و در هر نوبت یک استیک را در تابه قرار داد. قطعات گوشت را کمی می کوبیم. دو طرف هر قطعه را به نمک و فلفل آغشته می کنیم…</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">استیک را باید در تابه چدنی سرخ کرده و در هر نوبت یک استیک را در تابه قرار داد. قطعات گوشت را کمی می کوبیم. دو طرف هر قطعه را به نمک و فلفل آغشته می کنیم…</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                                                                         
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image21.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">ماکارونی با سبزیجات</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌ می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌ پیازها را خرد کرده‌ و روی‌ روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ شود…</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌ می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌ پیازها را خرد کرده‌ و روی‌ روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ شود…</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                                                                         
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image22.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">سوپ مکزیکی</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا روی آن را بپوشاند و به مدت نیم ساعت آن را بپزید. گوشت را از مایع آن بیرون آورده…</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا روی آن را بپوشاند و به مدت نیم ساعت آن را بپزید. گوشت را از مایع آن بیرون آورده…</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                                                                         
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image23.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">چیلاکیله</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از فهرست</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از فهرست</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
             
                     <div class="w-[318px] h-[604px]  shadow-xl flex flex-wrap flex-row items-center">
                         <a href="#" class="hover:opacity-[0.7]"><img class="w-[310px] h-[286px] object-cover " src="./public/images/weblog/image03.jpg" alt="نحوه پخت حبوبات"></a>
                         <a href="#" class="w-[300px] h-[50px]"><h1 class="text-[#FF0000] text-[20px] font-['iransans'] line-clamp-2 px-[22px]">زرشک راز سلامتی</h1></a>
-                        <div class="font-['iransans'] text-justify text-[#7C7D7E] px-[22px] leading-8">زرشک، سرآغازی برای سلامت قلب و آرامش فواید زرشک که با نام علمی Berberis vulgaris شناخته می‌شود فراوان و برای سلامتی مفید است. در گذشته</div>
-                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
+                        <div class="font-['iransans'] text-justify text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] px-[22px] leading-8">زرشک، سرآغازی برای سلامت قلب و آرامش فواید زرشک که با نام علمی Berberis vulgaris شناخته می‌شود فراوان و برای سلامتی مفید است. در گذشته</div>
+                        <a href="#" class=""><div class="w-[106px] h-[42px] border solid mr-[20px] mt-[18px] rounded-lg font-['iransans'] leading-[42px] mx-auto text-[#7C7D7E] dark:text-[#FFFFFF]/[0.5] text-center hover:text-[#FFFFFF] hover:bg-[#FF0000]"><p class="mx-auto">ادامه مطلب</p></div></a>
                     </div>
                     
 
@@ -400,6 +413,6 @@
     </div>
   
 
-  <script href="./public/js/main.js"></script>
+  <script src="./public/js/main.js"></script>
 </body>
 </html>
