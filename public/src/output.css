@@ -860,10 +860,6 @@ video {
   height: inherit;
 }
 
-.h-\[\] {
-  height: ;
-}
-
 .min-h-\[450px\] {
   min-height: 450px;
 }
@@ -1198,16 +1194,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
-}
-
-.bg-slate-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/icon1-1-1\.png\'\)\] {
@@ -1788,34 +1774,6 @@ video {
     height: auto;
   }
 
-  .mobile\:h-\[\] {
-    height: ;
-  }
-
-  .mobile\:h-\[inhe\] {
-    height: inhe;
-  }
-
-  .mobile\:h-\[inherit\] {
-    height: inherit;
-  }
-
-  .mobile\:h-\[300\[x\]\] {
-    height: 300[x];
-  }
-
-  .mobile\:h-\[300\[px\]\] {
-    height: 300[px];
-  }
-
-  .mobile\:h-\[300px\] {
-    height: 300px;
-  }
-
-  .mobile\:h-\[500px\] {
-    height: 500px;
-  }
-
   .mobile\:w-\[100\%\] {
     width: 100%;
   }
@@ -1860,10 +1818,6 @@ video {
     width: 100%;
   }
 
-  .mobile\:w-\[200px\] {
-    width: 200px;
-  }
-
   .mobile\:flex-col {
     flex-direction: column;
   }
@@ -1901,11 +1855,6 @@ video {
     background-color: rgb(55 65 81 / var(--tw-bg-opacity));
   }
 
-  .mobile\:bg-slate-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-  }
-
   .mobile\:p-\[20px\] {
     padding: 20px;
   }
@@ -1938,20 +1887,16 @@ video {
     padding-top: 180px;
   }
 
+  .mobile\:pt-\[20px\] {
+    padding-top: 20px;
+  }
+
   .mobile\:pt-\[225px\] {
     padding-top: 225px;
   }
 
   .mobile\:pt-\[40px\] {
     padding-top: 40px;
-  }
-
-  .mobile\:pt-\[\] {
-    padding-top: ;
-  }
-
-  .mobile\:pt-\[20px\] {
-    padding-top: 20px;
   }
 
   .mobile\:text-center {
@@ -1970,18 +1915,6 @@ video {
     font-size: 14px;
   }
 
-  .mobile\:text-\[15px\] {
-    font-size: 15px;
-  }
-
-  .mobile\:text-\[10px\] {
-    font-size: 10px;
-  }
-
-  .mobile\:text-\[30px\] {
-    font-size: 30px;
-  }
-
   .mobile\:leading-5 {
     line-height: 1.25rem;
   }
@@ -1989,10 +1922,6 @@ video {
   .mobile\:text-\[\#9F9F9F\] {
     --tw-text-opacity: 1;
     color: rgb(159 159 159 / var(--tw-text-opacity));
-  }
-
-  .mobile\:text-\[\] {
-    color: ;
   }
 }
 
@@ -2194,6 +2123,10 @@ video {
     padding-right: 300px;
   }
 
+  .desktop\:pt-\[0\] {
+    padding-top: 0;
+  }
+
   .desktop\:pt-\[100px\] {
     padding-top: 100px;
   }
@@ -2216,14 +2149,6 @@ video {
 
   .desktop\:pt-\[70px\] {
     padding-top: 70px;
-  }
-
-  .desktop\:pt-\[0\] {
-    padding-top: 0;
-  }
-
-  .desktop\:pt-\[10px\] {
-    padding-top: 10px;
   }
 
   .desktop\:text-right {
