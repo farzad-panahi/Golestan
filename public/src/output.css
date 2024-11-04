@@ -856,10 +856,6 @@ video {
   height: 97px;
 }
 
-.h-\[auto\] {
-  height: auto;
-}
-
 .h-\[inherit\] {
   height: inherit;
 }
@@ -1086,6 +1082,11 @@ video {
   border-color: rgb(43 43 43 / 0.3);
 }
 
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
 .bg-\[\#009DA2\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 157 162 / var(--tw-bg-opacity));
@@ -1266,6 +1267,10 @@ video {
   padding: 5px;
 }
 
+.p-\[6px\] {
+  padding: 6px;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1364,12 +1369,16 @@ video {
   padding-top: 50px;
 }
 
-.pt-\[70px\] {
-  padding-top: 70px;
-}
-
 .pt-\[75px\] {
   padding-top: 75px;
+}
+
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[175px\] {
+  padding-top: 175px;
 }
 
 .text-center {
@@ -1591,12 +1600,12 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-700 {
-  transition-duration: 700ms;
-}
-
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
 }
 
 @font-face{
@@ -1679,9 +1688,73 @@ video {
   display: block;
 }
 
+.dark\:hidden:is(.dark *) {
+  display: none;
+}
+
+.dark\:bg-\[\#2b2b2b\]:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 43 43 / var(--tw-bg-opacity));
+}
+
+.dark\:bg-\[\#494848\]:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(73 72 72 / var(--tw-bg-opacity));
+}
+
+.dark\:bg-\[\#FFFFFF\]\/\[0\.5\]:is(.dark *) {
+  background-color: rgb(255 255 255 / 0.5);
+}
+
+.dark\:bg-slate-200:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+.dark\:bg-\[\#494848\]\/\[\]:is(.dark *) {
+  background-color: rgb(73 72 72 / );
+}
+
+.dark\:bg-\[\#494848\]\/\[0\.5\]:is(.dark *) {
+  background-color: rgb(73 72 72 / 0.5);
+}
+
+.dark\:text-\[\#2b2b2b\]:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(43 43 43 / var(--tw-text-opacity));
+}
+
+.dark\:text-\[\#FFFFFF\]\/\[0\.5\]:is(.dark *) {
+  color: rgb(255 255 255 / 0.5);
+}
+
 @media (min-width: 340px) {
   .mobile\:fixed {
     position: fixed;
+  }
+
+  .mobile\:absolute {
+    position: absolute;
+  }
+
+  .mobile\:relative {
+    position: relative;
+  }
+
+  .mobile\:top-0 {
+    top: 0px;
+  }
+
+  .mobile\:right-0 {
+    right: 0px;
+  }
+
+  .mobile\:z-\[\] {
+    z-index: ;
+  }
+
+  .mobile\:z-\[100000\] {
+    z-index: 100000;
   }
 
   .mobile\:mx-auto {
@@ -1765,6 +1838,10 @@ video {
     width: 100%;
   }
 
+  .mobile\:w-\[full\] {
+    width: full;
+  }
+
   .mobile\:flex-col {
     flex-direction: column;
   }
@@ -1787,6 +1864,34 @@ video {
 
   .mobile\:gap-2 {
     gap: 0.5rem;
+  }
+
+  .mobile\:border {
+    border-width: 1px;
+  }
+
+  .mobile\:border-none {
+    border-style: none;
+  }
+
+  .mobile\:bg-slate-200 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  }
+
+  .mobile\:bg-gray-400 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+  }
+
+  .mobile\:bg-gray-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+  }
+
+  .mobile\:bg-gray-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
   }
 
   .mobile\:p-\[20px\] {
@@ -1829,8 +1934,20 @@ video {
     padding-top: ;
   }
 
-  .mobile\:pt-\[130px\] {
-    padding-top: 130px;
+  .mobile\:pt-\[175\] {
+    padding-top: 175;
+  }
+
+  .mobile\:pt-\[175px\] {
+    padding-top: 175px;
+  }
+
+  .mobile\:pt-\[275px\] {
+    padding-top: 275px;
+  }
+
+  .mobile\:pt-\[225px\] {
+    padding-top: 225px;
   }
 
   .mobile\:text-center {
@@ -1857,6 +1974,12 @@ video {
     --tw-text-opacity: 1;
     color: rgb(159 159 159 / var(--tw-text-opacity));
   }
+
+  @media (min-width: 1000px) {
+    .mobile\:desktop\:fixed {
+      position: fixed;
+    }
+  }
 }
 
 @media (min-width: 1000px) {
@@ -1868,8 +1991,16 @@ video {
     position: absolute;
   }
 
+  .desktop\:right-\[15px\] {
+    right: 15px;
+  }
+
   .desktop\:right-\[90px\] {
     right: 90px;
+  }
+
+  .desktop\:top-\[15px\] {
+    top: 15px;
   }
 
   .desktop\:top-\[24px\] {
@@ -2067,6 +2198,18 @@ video {
 
   .desktop\:pt-\[70px\] {
     padding-top: 70px;
+  }
+
+  .desktop\:pt-\[175px\] {
+    padding-top: 175px;
+  }
+
+  .desktop\:pt-\[155px\] {
+    padding-top: 155px;
+  }
+
+  .desktop\:pt-\[1745px\] {
+    padding-top: 1745px;
   }
 
   .desktop\:text-right {
