@@ -582,6 +582,10 @@ video {
   right: -20px;
 }
 
+.right-\[0px\] {
+  right: 0px;
+}
+
 .right-\[350px\] {
   right: 350px;
 }
@@ -816,6 +820,10 @@ video {
   height: 47px;
 }
 
+.h-\[5000px\] {
+  height: 5000px;
+}
+
 .h-\[500px\] {
   height: 500px;
 }
@@ -1046,10 +1054,6 @@ video {
   row-gap: 5rem;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -1189,6 +1193,16 @@ video {
 .bg-gray-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.bg-orange-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 215 170 / var(--tw-bg-opacity));
+}
+
+.bg-rose-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 113 133 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -1676,10 +1690,6 @@ video {
   display: block;
 }
 
-.dark\:hidden:is(.dark *) {
-  display: none;
-}
-
 .dark\:bg-\[\#2b2b2b\]:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(43 43 43 / var(--tw-bg-opacity));
@@ -1715,6 +1725,10 @@ video {
 
   .mobile\:relative {
     position: relative;
+  }
+
+  .mobile\:-right-0 {
+    right: -0px;
   }
 
   .mobile\:right-0 {
@@ -1760,6 +1774,10 @@ video {
 
   .mobile\:h-\[200px\] {
     height: 200px;
+  }
+
+  .mobile\:h-\[250px\] {
+    height: 250px;
   }
 
   .mobile\:h-\[600px\] {
@@ -1808,6 +1826,11 @@ video {
 
   .mobile\:w-\[full\] {
     width: full;
+  }
+
+  .mobile\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   .mobile\:w-full {
@@ -1919,6 +1942,22 @@ video {
     --tw-text-opacity: 1;
     color: rgb(159 159 159 / var(--tw-text-opacity));
   }
+
+  .mobile\:hover\:h-\[160px\]:hover {
+    height: 160px;
+  }
+
+  .mobile\:hover\:h-\[40px\]:hover {
+    height: 40px;
+  }
+
+  .mobile\:hover\:h-\[420px\]:hover {
+    height: 420px;
+  }
+
+  .mobile\:hover\:h-\[555px\]:hover {
+    height: 555px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -1930,8 +1969,16 @@ video {
     position: absolute;
   }
 
+  .desktop\:right-\[0px\] {
+    right: 0px;
+  }
+
   .desktop\:right-\[15px\] {
     right: 15px;
+  }
+
+  .desktop\:right-\[18\%\] {
+    right: 18%;
   }
 
   .desktop\:right-\[90px\] {
@@ -2071,6 +2118,10 @@ video {
     width: 83.4%;
   }
 
+  .desktop\:w-\[100\%\] {
+    width: 100%;
+  }
+
   .desktop\:flex-row {
     flex-direction: row;
   }
@@ -2166,6 +2217,10 @@ video {
   .desktop\:text-\[\#9F9F9F\] {
     --tw-text-opacity: 1;
     color: rgb(159 159 159 / var(--tw-text-opacity));
+  }
+
+  .desktop\:hover\:h-\[24px\]:hover {
+    height: 24px;
   }
 }
 
