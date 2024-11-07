@@ -23,23 +23,15 @@
   <div class="full w-full bg-[#E9E9E9] dark:bg-[#2b2b2b]">
     <div class="wrapper desktop:w-5/6 mobile:w-full shadow-2xl mx-auto ">
       
-      <!-- <div class="menu desktop:w-[83.4%] mobile:w-[100%] z-[9999] desktop:fixed mobile:fixed desktop:h-[100px]  mobile:h-[182px] bg-[#292929] desktop:flex desktop:flex-wrap mx-auto desktop:items-center  "> 
-        <div class="">
-        
-        <div class="logo w-[full]  
-            "><img src="./public/images/logo/logo.png" alt="" class="desktop:absolute desktop:right-[90px] desktop:top-[50px] mobile:mx-auto  ">
-        </div>
-      </div> -->
-<!-- hi -->
         <!-- Start-Menu -->
         <!-- ************************************************************************ -->
-        <div class="mx-auto desktop:h-[inherit] mobile:h-[250px] bg-rose-400"> <!--Back Menu1-->
+        <div class="mx-auto desktop:h-[inherit] desktop:static mobile:relative mobile:h-[200px] bg-[#302f2f]"> <!--Back Menu1-->
 
           <div class="logo w-[full]  
               "><img src="./public/images/logo/logo.png" alt="" class="desktop:absolute desktop:right-[18%] desktop:top-[50px] mobile:mx-auto  ">
           </div>
-            <!-- mobile:hidden -->
-            <nav class=" w-[99%] desktop:h-[100px]  font-['iransans'] bg-[#302f2f] mx-auto desktop:flex desktop:items-center desktop:justify-center flex-wrap gap-3 desktop:flex-row mobile:flex-col ">
+            
+            <nav id="mobile-menu"  class="mobile:w-[100%] mobile:hidden desktop:top-[0px] desktop:right-0 desktop:static mobile:absolute mobile:top-[198px] w-[99%] desktop:h-[100px]  font-['iransans'] bg-[#302f2f] mx-auto desktop:flex desktop:items-center desktop:justify-center flex-wrap gap-3 desktop:flex-row mobile:flex-col mobile:p-[20px]">
 
             <!-- Start_صفحه اصلی_Menu -->
             <!-- ***************************************************************************************** -->
@@ -118,7 +110,7 @@
         </div>
         <!-- End_تماس با ما_Menu -->
 
-
+          <div class="w-[1px] h-[25px] bg-[#FFFFFF]/[0.6] mobile:hidden desktop:flex"></div>
             
               
               
@@ -126,13 +118,11 @@
         </div>
         <!-- End-Start-Menu -->
 
-
-
-
-      <div class="w-[full] h-[5000px] bg-orange-200"></div>
-
-        
-        
+        <button onclick="toggleMenu()" class="menu-container desktop:hidden absolute right-4 bottom-4 text-white" id="mobile-menu-button">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
         
       </div>
     </div>

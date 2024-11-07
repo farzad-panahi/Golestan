@@ -19,6 +19,7 @@ document.getElementById('goUpBtn').addEventListener('click', function(e) {
     }, 300);  // می‌توانید این عدد را برای تاخیر بیشتر یا کمتر تغییر دهید
 });
 
-
-
-
+function toggleMenu() {
+    const menu = document.getElementById("mobile-menu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+}
